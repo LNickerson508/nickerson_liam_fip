@@ -46,6 +46,23 @@ input, textarea {
    color: #9a2018;
 }
 
+#dining-title {
+   text-align: center;
+   font-style: italic;
+   padding-bottom: 10px;
+}
+
+#dining-text {
+   text-align: center;
+   font-size: 14px;
+}
+
+#list-title {
+   font-size: 16px;
+   font-style: bold;
+   padding-top: 8px;
+}
+
 
 /* 2. ---Main Nav--- */
 
@@ -216,7 +233,7 @@ input, textarea {
 
 
 #why-choose-us-hero-con {
-  background: url(../images/why-choose-us-hero.jpg) no-repeat;
+  background: url(../images/dining-banner.jpg) no-repeat;
   height: 195px;
 }
 
