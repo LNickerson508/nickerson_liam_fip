@@ -46,6 +46,12 @@ input, textarea {
    color: #9a2018;
 }
 
+#rooms-h2 {
+   font-size: 23px;
+   font-style: italic;
+   text-align: center;
+}
+
 
 /* 2. ---Main Nav--- */
 
@@ -215,10 +221,33 @@ input, textarea {
  }
 
 
-#why-choose-us-hero-con {
+.rooms-hero {
   background: url(../images/rooms-chateau.jpg) no-repeat;
   height: 195px;
+  margin-top: 20px;
 }
+
+#villa {
+   background: url(../images/rooms-villa.jpg) no-repeat;
+}
+
+#master {
+   background: url(../images/rooms-masters.jpg) no-repeat;
+}
+
+#chalet {
+   background: url(../images/rooms-chalet.jpg) no-repeat;
+}
+
+#exotic {
+   background: url(../images/rooms-exotic.jpg) no-repeat;
+}
+
+#junior {
+   background: url(../images/rooms-juniors.jpg) no-repeat;
+}
+
+
 
 #why-choose-us-heading-box {
    align-self: end;
@@ -256,8 +285,9 @@ input, textarea {
 
 #why-choose-us-bottom-nav ol {
    list-style-type: none;
-   margin: 0 0 0 20px;
+   margin: 0px auto;
    padding: 0;
+   text-align: center;
 }
 
 #why-choose-us-bottom-nav ol li {
@@ -265,7 +295,6 @@ input, textarea {
 }
 
 #why-choose-us-bottom-nav ol li a {
-   padding: 5px;
    color: #fff;
 }
 
