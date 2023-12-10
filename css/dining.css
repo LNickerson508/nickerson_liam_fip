@@ -275,6 +275,7 @@ input, textarea {
    list-style-type: none;
    margin: 0 0 0 20px;
    padding: 0;
+   text-align: center;
 }
 
 #why-choose-us-bottom-nav ol li {
@@ -291,7 +292,7 @@ input, textarea {
 /* 6. ---About & FAQ--- */
 
 #about-hero-con {
-   background: url(../images/about-us-hero.jpg) no-repeat;
+   background: url(../images/dining-wine.jpg) no-repeat;
    height: 195px;
 }
 
@@ -358,6 +359,18 @@ input, textarea {
 #faq-text-con {
    margin-top: 20px;
    margin-bottom: 20px;
+}
+
+#wine-title {
+   text-align: center;
+   font-size: 15px;
+   font-style: italic;
+   padding-top: 15px;
+}
+
+#wine-text {
+   text-align: center;
+   padding-top: 15px;
 }
 
 /* 7. ---Contact--- */
